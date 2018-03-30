@@ -17,7 +17,7 @@ end
 def find_the_cheese(food)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if food.find {|cheese| "#{cheese}"}
+  if food.find {|cheese_types| "#{cheese}"}
     puts "#{cheese}"
   else
     nil
