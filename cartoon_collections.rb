@@ -19,6 +19,6 @@ def find_the_cheese(food)
   if !food.include?(cheese_types)
     nil
   else
-    
+    food.find
   end
 end
