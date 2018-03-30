@@ -19,6 +19,7 @@ def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if food.find {|cheese| "#{cheese}"}
     puts "#{cheese}"
+  else
     nil
   end
 end
