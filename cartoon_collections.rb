@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
- dwarves.each_with_index.map {|dwarf, i| "#{i + 1} #{dwarf}"}
+ dwarves.each_with_index.map {|dwarf, i| "puts #{i + 1} #{dwarf}"}
   puts "#{i + 1}.*#{dwarf}"
 end
 
