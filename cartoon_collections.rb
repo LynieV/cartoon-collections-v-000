@@ -17,7 +17,7 @@ end
 def find_the_cheese(cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if cheese.find == cheese_types
+  if cheese.include? == cheese_types
     true
   else
     nil
