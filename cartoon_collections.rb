@@ -20,6 +20,6 @@ def find_the_cheese(cheese_types)
   if cheese_types.find
     true
   else
-    false
+    nil
   end
 end
